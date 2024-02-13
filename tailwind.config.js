@@ -1,10 +1,20 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+ export default{
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+
+      colors : {
+        amazonclone : {
+          background : "#EAEDED",
+          light_blue : "#232F3A",
+          background : "#EAEDED",
+          deafult : "#131921"
+        }
+      }
+    },
   },
   plugins: [],
 }
