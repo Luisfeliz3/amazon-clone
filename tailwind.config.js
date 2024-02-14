@@ -8,7 +8,7 @@
 
       colors : {
         amazonclone : {
-          background : "#EAEDED",
+          yellow : "#FEBD69",
           light_blue : "#232F3A",
           background : "#EAEDED",
           deafult : "#131921"

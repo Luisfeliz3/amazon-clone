@@ -1,5 +1,7 @@
 import Carousel from "./Carousel";
 import HomePageCard from "./HomePageCard";
+import CarouselCategory from "./CarouselCategory";
+import CarouselProduct from "./CarouselProduct";
 
 // className='grid grid-cols-3 xl:grid-cols-4' creates  responsice grid
 const HomePage = () => {
@@ -56,8 +58,16 @@ const HomePage = () => {
             link={"Learn More"}
           />
         </div>
-      </div>
+ </div>
+ <CarouselProduct/>
+   <CarouselCategory/>
+   <div className="h-[200px]">
 
+    <img
+    className="h-[100%] m-auto"
+    src={"../images/banner_image.jpg"}
+    />
+   </div>
       <div className=" m-3 pt-8">
         <img
         className="xl:hidden"

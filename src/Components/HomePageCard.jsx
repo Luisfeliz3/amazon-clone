@@ -1,4 +1,5 @@
 import React from "react";
+import { CarouselCategory } from './CarouselCategory'
 
 const HomePageCard = ({ title, img, link }) => {
   return (
