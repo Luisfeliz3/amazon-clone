@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import ProductDetails from "./ProductDetails";
 import { US_CURRENCY } from '../utils/constants';
-import { removeFromCart } from '../redux/cartSlice'
+import { removeFromCart } from '../redux/cartSlice';
 
 
 

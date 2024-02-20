@@ -32,7 +32,7 @@ export const cartSlice = createSlice({
         (product) => product.id === action.payload
       );
 
-      //then remove quantity from prodsuct number
+      //then remove quantity from product number
 
       state.productsNumber = state.productsNumber - productToRemove.quantity;
 
