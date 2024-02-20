@@ -1,3 +1,6 @@
+
+![amazon-clone](https://github.com/Luisfeliz3/amazon-clone/assets/12804914/88b7ac9d-4504-45b6-8cfb-1a16188e90e6)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
